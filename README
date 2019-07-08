@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------
+README to Translate from HIN-ENG or ENG-HIN using Selenium Web Driver for Firefox
+---------------------------------------------------------------------------------
+
+Important Note : Please check the usage policy of https://www.bing.com/translator before using it.
+
+
+================================
+Install the selenium web driver:
+-> pip install selenium
+
+Install the pyperclip module:
+-> pip install pyperclip
+================================
+
+================================================================================================
+Download the latest version of geckodriver from: https://github.com/mozilla/geckodriver/releases
+Extract and paste the driver in the '/usr/bin' or '/usr/local/bin' directory.
+================================================================================================
+
+===========================================================
+Two scripts are there in the folder:
+1. 'bing_eng_hin.py' converts data in English to Hindi.
+2. 'bing_hin_eng.py' converts text in Hindi to English.
+===========================================================
+
+==============================================================
+Command:
+-> python script_name.py <input_file> <output_file>
+
+Replace script_name.py with the name of the script given above.
+===============================================================
